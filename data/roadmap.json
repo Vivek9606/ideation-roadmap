@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "title": "Betterhood organic growth roadmap",
+    "subtitle": "SEO, AEO, GEO, social and product bets for betterhood.in, shop.betterhood.in and the Betterhood apps",
+    "updated": "2026-10-31",
+    "northStar": {
+      "name": "Weekly people helped",
+      "definition": "Unique people per week who complete a pain assessment, finish a guided routine, or buy a physio-recommended product, arriving through an organic channel (search, AI answers, social, WhatsApp, referrals).",
+      "why": "It counts value delivered, not traffic. Every bet on this page should move it: SEO and GEO bring people in, assessments and routines help them, the shop and physios turn help into outcomes."
+    },
+    "assets": [
+      "758 expert-led articles on /learn/",
+      "1,817 physiotherapist profiles and a directory",
+      "9 physio-designed pain and health assessments with 16 result pages",
+      "Slouch Catcher posture game",
+      "PhysioEdge certification course for physios",
+      "betterYou corner (personal dashboard)",
+      "Betterhood Physio app (verification, profiles, article reviews, referrals)",
+      "shop.betterhood.in, certified by the Indian Association of Physiotherapists",
+      "WhatsApp community, podcast seasons, Instagram, YouTube, LinkedIn, Facebook"
+    ],
+    "competitors": ["Frido", "Tynor", "Zanskar"],
+    "audiences": [
+      { "name": "Desk workers (25–40)", "need": "Neck, back and wrist pain from long hours; want quick fixes and better setups." },
+      { "name": "Drivers and commuters", "need": "Lower back pain from long drives; want seat and lumbar support." },
+      { "name": "Active people", "need": "Gym, running and badminton injuries; want recovery and prevention." },
+      { "name": "Adult children of ageing parents", "need": "Knee pain, balance and mobility for parents; want trusted, giftable care." },
+      { "name": "Physiotherapists", "need": "Credibility, patients and professional growth; want verification, visibility and credit." },
+      { "name": "Employers (HR, wellness leads)", "need": "Fewer musculoskeletal complaints; want workshops and measurable programs." }
+    ]
+  },
+
+  "pillars": [
+    { "id": "seo", "name": "Search (SEO)", "color": "#2B7B78", "goal": "Own non-brand Google searches for pain, posture and physio intent in India.", "summary": "Fix the foundations after the relaunch, organise 758 articles into condition clusters, and turn the physio directory into the best local physio search experience in India." },
+    { "id": "aeo", "name": "Answer engines (AEO)", "color": "#3E6FB0", "goal": "Be the answer Google shows in snippets, People Also Ask and rich results.", "summary": "Answer-first writing, a full structured-data layer, and physio-reviewed Q&A built from the questions people actually ask." },
+    { "id": "geo", "name": "Generative engines (GEO)", "color": "#7A5AB5", "goal": "Be cited by ChatGPT, Gemini, Perplexity and Google AI Overviews.", "summary": "Measure AI visibility, make pages citation-ready, and earn presence on the sources AI models read." },
+    { "id": "social", "name": "Social & community", "color": "#C2557A", "goal": "Build an audience that finds, trusts and shares Betterhood without paid media.", "summary": "A physio-led content engine across Instagram, YouTube, WhatsApp, LinkedIn and Pinterest, plus Reddit and Quora answers and creator partnerships." },
+    { "id": "web", "name": "Website product", "color": "#C9822B", "goal": "Turn visits into help, and help into return visits and sales.", "summary": "Shareable assessments, free tools, guided programs and content-to-commerce bridges." },
+    { "id": "app", "name": "Apps", "color": "#4C8C3F", "goal": "Make physios and patients the distribution.", "summary": "Referral, byline and certification loops in the physio app, then a consumer posture coach." },
+    { "id": "ops", "name": "Measurement & operating rhythm", "color": "#6B7280", "goal": "Decide with data, every week.", "summary": "North Star and funnel metrics, AI visibility tracking, and a weekly ICE-scored experiment ritual." }
+  ],
+
+  "phases": [
+    { "id": "p0", "name": "Foundation", "window": "Weeks 0–4", "focus": "Protect the relaunch, set baselines, ship quick wins." },
+    { "id": "p1", "name": "Build", "window": "Months 1–3", "focus": "Clusters, schema, content engine, the first growth loops." },
+    { "id": "p2", "name": "Scale", "window": "Months 3–6", "focus": "Programmatic pages, digital PR, creator program, regional languages." },
+    { "id": "p3", "name": "Compound", "window": "Months 6–12", "focus": "Consumer app, annual moments, B2B2C, community flywheels." }
+  ],
+
+  "kpis": [
+    { "id": "k_nb_clicks", "name": "Non-brand organic clicks", "source": "Google Search Console (SEO Workbench)", "target": "Suggested: +60% in 12 months; set the baseline at kickoff", "pillar": "seo" },
+    { "id": "k_top3", "name": "Keywords in the top 3", "source": "SEO Workbench rankings", "target": "Suggested: 2× in 12 months", "pillar": "seo" },
+    { "id": "k_rich", "name": "Pages with valid rich results", "source": "Search Console enhancements", "target": "All articles, profiles and products", "pillar": "aeo" },
+    { "id": "k_snippets", "name": "Featured snippets and PAA wins", "source": "SEO Workbench / rank tracker", "target": "Suggested: 150 in 6 months", "pillar": "aeo" },
+    { "id": "k_ai_share", "name": "AI citation share", "source": "Tracked prompt set across ChatGPT, Gemini, Perplexity and AI Overviews", "target": "Suggested: cited in 30% of tracked prompts, ahead of Frido, Tynor and Zanskar", "pillar": "geo" },
+    { "id": "k_assess", "name": "Assessment completions per week", "source": "Site tracker", "target": "Suggested: 3× in 12 months", "pillar": "web" },
+    { "id": "k_viral", "name": "Share rate and K-factor of results and tools", "source": "Share events ÷ completions; visits from shared links", "target": "Suggested: 8% share rate, K above 0.2", "pillar": "web" },
+    { "id": "k_physio", "name": "Physio profiles live and shared", "source": "Physio app", "target": "Suggested: 500 verified, 40% share their profile", "pillar": "app" },
+    { "id": "k_bylines", "name": "Articles with a physio byline", "source": "Physio app reviews", "target": "Suggested: every top-200 article reviewed", "pillar": "app" },
+    { "id": "k_social", "name": "Saves, shares and follows per platform", "source": "Instagram, YouTube, LinkedIn, Pinterest analytics", "target": "Track weekly; share and save rate over likes", "pillar": "social" },
+    { "id": "k_owned", "name": "Owned audience (WhatsApp channel, email, app)", "source": "WhatsApp, ESP, app", "target": "Suggested: 50k reachable people", "pillar": "social" },
+    { "id": "k_links", "name": "Referring domains from earned media", "source": "Ahrefs or Semrush", "target": "Suggested: +150 quality domains in 12 months", "pillar": "seo" },
+    { "id": "k_org_rev", "name": "Organic-attributed shop revenue", "source": "Shopify + UTM / GA4", "target": "Set at kickoff", "pillar": "ops" },
+    { "id": "k_cwv", "name": "Core Web Vitals pass rate", "source": "Search Console / CrUX", "target": "95%+ of URLs good on mobile", "pillar": "seo" }
+  ],
+
+  "frameworks": [
+    { "id": "f_cluster", "name": "Topic clusters (pillar and cluster model)", "origin": "HubSpot, 2017", "summary": "One broad pillar page per topic, linked to and from many narrower cluster pages. Search engines read the whole cluster as topical authority.", "howWeUse": "One pillar per pain concern (back, neck, knee, sciatica…) that links the related articles, the assessment, the product collection and nearby physios." },
+    { "id": "f_eeat", "name": "E-E-A-T for YMYL content", "origin": "Google Search Quality Rater Guidelines", "summary": "Health is 'Your Money or Your Life' content: Google looks for experience, expertise, authoritativeness and trust, for example credentialed authors and reviewers.", "howWeUse": "Every health article gets a verified physio reviewer (from the physio app), credentials, sources and a review date." },
+    { "id": "f_pseo", "name": "Programmatic SEO", "origin": "Zillow, Tripadvisor, Zapier, Practo", "summary": "Generate many useful pages from structured data (place × category), each answering a real long-tail search.", "howWeUse": "City × locality × speciality physio pages from 1,817 profiles, only where enough real profiles exist." },
+    { "id": "f_aeo", "name": "Answer-first content (AEO)", "origin": "Featured snippet and voice search practice", "summary": "Put a direct 40–60 word answer right under each question heading, then expand. Use lists and tables that engines can lift.", "howWeUse": "A house style for every /learn/ article and FAQ block." },
+    { "id": "f_geo", "name": "Generative Engine Optimization", "origin": "Aggarwal et al., 'GEO: Generative Engine Optimization' (Princeton, Georgia Tech, AI2, IIT Delhi), 2023", "summary": "The study found that adding citations, quotations from experts and statistics raised a source's visibility in AI-generated answers by up to about 40%.", "howWeUse": "Add physio quotes, Indian statistics and cited studies to the pages that matter, and track citation share across AI engines." },
+    { "id": "f_hhh", "name": "Hub, Hero, Help", "origin": "Google / YouTube Creator Playbook", "summary": "Help content answers searches all year; Hub content is a regular series that brings people back; Hero content is a few big tent-pole moments.", "howWeUse": "Help: condition routines. Hub: weekly physio series. Hero: Posture Wrapped, the State of India's Spine report." },
+    { "id": "f_content_model", "name": "Pillar to micro content", "origin": "Gary Vaynerchuk's content model", "summary": "Make one substantial piece (a long video or podcast) and cut it into many short native pieces for each platform.", "howWeUse": "One weekly physio video becomes about 10 Reels or Shorts, 2 carousels, a LinkedIn post, a Pinterest pin set and a WhatsApp tip." },
+    { "id": "f_aarrr", "name": "AARRR pirate metrics", "origin": "Dave McClure, 2007", "summary": "Acquisition, Activation, Retention, Referral and Revenue: measure the whole funnel, not just traffic.", "howWeUse": "Organic visit → assessment completed → return within 30 days → shared result → purchase." },
+    { "id": "f_nsm", "name": "North Star metric", "origin": "Amplitude North Star Playbook", "summary": "One metric that captures the value customers get, with a few input metrics the team can move.", "howWeUse": "'Weekly people helped', with inputs: organic visits, assessment completion rate, routine starts and share rate." },
+    { "id": "f_ice", "name": "ICE scoring", "origin": "Sean Ellis / GrowthHackers", "summary": "Score each idea 1–10 on Impact, Confidence and Ease, then work the highest scores first.", "howWeUse": "Every initiative here carries an ICE score; re-score it in the weekly growth meeting." },
+    { "id": "f_loops", "name": "Growth loops", "origin": "Reforge (Brian Balfour, Andrew Chen and others)", "summary": "Compounding systems where one cohort's output brings in the next cohort (content loops, user-generated content loops, viral loops), rather than one-way funnels.", "howWeUse": "Physio byline loop, profile-share loop, shareable results loop, Q&A content loop." },
+    { "id": "f_hooked", "name": "Hooked model", "origin": "Nir Eyal, 'Hooked', 2014", "summary": "Trigger → Action → Variable reward → Investment builds habits.", "howWeUse": "Daily posture nudges, 5-minute routines, streaks and progress the user builds up." },
+    { "id": "f_viral", "name": "Viral coefficient (K-factor)", "origin": "Growth and epidemiology models", "summary": "K = invites per user × conversion rate of those invites. Any K above 0 cuts acquisition cost; above 1 means self-sustaining growth.", "howWeUse": "Measure it for Slouch Catcher, assessment results and physio profile shares." },
+    { "id": "f_dpr", "name": "Data-led digital PR", "origin": "OkCupid OkTrends, Spotify Wrapped, Strava Year in Sport", "summary": "Publish original data that journalists and creators want to cite. It earns links and brand mentions at scale.", "howWeUse": "An annual 'State of India's Spine' report from anonymised assessment and Slouch Catcher data." },
+    { "id": "f_community", "name": "Community-led growth", "origin": "Glossier (Into The Gloss), Notion ambassadors, Gymshark athletes", "summary": "Let a community of fans and experts create, advocate for and shape the product.", "howWeUse": "Physio ambassadors, creators and the WhatsApp community as co-creators." }
+  ],
+
+  "initiatives": [
+    {
+      "id": "s1", "pillar": "seo", "phase": "p0", "surface": "Website", "title": "Relaunch safety net for the Astro migration",
+      "summary": "Make sure moving betterhood.in from WordPress to the static Astro site keeps every ranking and gains speed.",
+      "why": "Site migrations are the most common cause of sudden organic traffic loss. All 758 articles and 1,817 profiles keep their slugs, so the job is to verify, not hope.",
+      "steps": ["Crawl the old and new sites and diff status codes, canonicals, titles, meta tags and hreflang", "Check _redirects against the GSC top-1,000 pages and backlinked URLs", "Submit fresh XML sitemaps (articles, physios, taxonomies) and watch the GSC Pages report daily for 4 weeks", "Record a Core Web Vitals baseline; static Astro should pass on mobile", "Set alerts for any page losing more than 30% of clicks week on week"],
+      "precedent": [{ "name": "Google site-move guidance", "lesson": "Google's documented process (1:1 redirects, updated sitemaps, monitoring) is the standard way to keep equity through a move." }],
+      "frameworks": [], "kpis": ["k_nb_clicks", "k_cwv"], "ice": [9, 9, 7]
+    },
+    {
+      "id": "s2", "pillar": "seo", "phase": "p1", "surface": "Website", "title": "Condition pillar hubs (topic clusters)",
+      "summary": "One authoritative hub per concern (back pain, neck pain and tech neck, knee pain, sciatica, frozen shoulder, slip disc, spondylosis, carpal tunnel, tennis elbow).",
+      "why": "Articles, assessments, products and physios for the same concern live in separate silos today. Clusters concentrate authority and give each visitor a complete path.",
+      "steps": ["Map every article to one concern and one intent (learn, relieve, buy, find a physio)", "Build hub pages: what it is, causes, self-test (assessment), exercises, when to see a physio, physio-recommended kit", "Add two-way internal links: hub → every cluster article, and each article → hub and two siblings", "Add breadcrumbs and BreadcrumbList schema; let hubs replace thin tag archives where they overlap"],
+      "precedent": [{ "name": "HubSpot topic clusters", "lesson": "HubSpot moved its blog to pillar/cluster architecture after finding interlinked clusters ranked better than standalone posts, and the model became an industry standard." }, { "name": "Healthline condition hubs", "lesson": "Condition hubs that link symptoms, treatment and living-with content dominate health searches." }],
+      "frameworks": ["f_cluster", "f_eeat"], "kpis": ["k_nb_clicks", "k_top3"], "ice": [9, 8, 6]
+    },
+    {
+      "id": "s3", "pillar": "seo", "phase": "p1", "surface": "Website", "title": "Refresh, merge and prune the 758 articles",
+      "summary": "Use the SEO Workbench's 'keyword overlaps' and page-2 rankings to merge cannibalising posts and refresh near-winners.",
+      "why": "The fastest organic gains usually come from pages already ranking 8–20, not from new posts.",
+      "steps": ["Pull posts ranking at positions 8–20 with more than 200 impressions a month", "Refresh them: answer-first intro, new data, physio review, updated date, better internal links", "Merge duplicates into the stronger URL with 301s", "Noindex or remove posts with no clicks, no links and no purpose"],
+      "precedent": [{ "name": "HubSpot 'historical optimization'", "lesson": "HubSpot publicly reported large gains in organic traffic and leads from updating and republishing old posts, rather than only writing new ones." }],
+      "frameworks": ["f_ice"], "kpis": ["k_nb_clicks", "k_top3"], "ice": [9, 8, 7]
+    },
+    {
+      "id": "s4", "pillar": "seo", "phase": "p2", "surface": "Website", "title": "Programmatic physio pages: city × locality × speciality",
+      "summary": "Pages like 'Sciatica physiotherapists in Koramangala, Bengaluru' and 'Home-visit physios in Pune', built from 1,817 real profiles.",
+      "why": "'Physiotherapist near me' style searches are high-intent and local. Practo-style directories own them today.",
+      "steps": ["Only generate a combination with 3 or more verified profiles; noindex the rest", "Add unique copy per page: local stats, average experience, modes (home visit, online), FAQs", "Add MedicalBusiness/Physician schema per profile and an ItemList on listing pages", "Link from condition hubs ('find a sciatica physio near you')"],
+      "precedent": [{ "name": "Practo, Zillow, Tripadvisor", "lesson": "Place × category pages generated from structured listings win huge long-tail local search volume." }, { "name": "Zapier", "lesson": "Tens of thousands of programmatic integration pages, each answering a specific search, became Zapier's main organic engine." }],
+      "frameworks": ["f_pseo"], "kpis": ["k_nb_clicks", "k_physio"], "ice": [9, 7, 5]
+    },
+    {
+      "id": "s5", "pillar": "seo", "phase": "p1", "surface": "Website + App", "title": "Local SEO: Google Business Profiles",
+      "summary": "Optimise Betterhood's Bengaluru profile, and help verified physios claim and link their own Google Business Profiles to their Betterhood profiles.",
+      "why": "The Google Maps local pack sits above organic results for local physio searches.",
+      "steps": ["Complete Betterhood's profile: categories, products, posts, Q&A, photos", "Add a 'Get on Google Maps' guide in the physio app", "Build review request flows for physios (a link from their Betterhood profile)", "Keep name, address and phone consistent across directories"],
+      "precedent": [{ "name": "Local pack behaviour", "lesson": "For 'near me' searches, Google shows Maps results first, so profile completeness and reviews drive clicks." }],
+      "frameworks": [], "kpis": ["k_physio", "k_nb_clicks"], "ice": [6, 7, 8]
+    },
+    {
+      "id": "s6", "pillar": "seo", "phase": "p2", "surface": "Website", "title": "Hindi and regional-language content for the top 50 concerns",
+      "summary": "Translate and localise (not machine-dump) the top hubs and articles into Hindi first, then Kannada, Tamil and Marathi, with hreflang.",
+      "why": "Most of India's next internet users prefer Indian languages, and competition for physio content in these languages is thin.",
+      "steps": ["Start with Hindi versions of the 10 hubs and top 40 articles", "Have a physio review every translation for medical accuracy", "Add hreflang pairs and language switchers", "Make regional short-form video to match (see social)"],
+      "precedent": [{ "name": "Google–KPMG 'Indian Languages: Defining India's Internet' (2017)", "lesson": "Projected Indian-language internet users would far outnumber English users, and that local-language content drives trust and engagement." }],
+      "frameworks": [], "kpis": ["k_nb_clicks"], "ice": [8, 6, 4]
+    },
+    {
+      "id": "s7", "pillar": "seo", "phase": "p1", "surface": "Website", "title": "Physio-reviewed buyer guides and comparisons",
+      "summary": "'Best cervical pillow for neck pain', 'Lumbar support for long drives', and honest comparisons against Frido, Tynor and Zanskar.",
+      "why": "Commercial-intent searches convert. A physio-review angle is a moat that competitors cannot copy quickly.",
+      "steps": ["Pick 20 commercial keywords from the Workbench where a competitor ranks", "Build a testing framework with physios (support, materials, use-cases)", "Add Product and Review schema and transparent pros and cons, including competitors where they win", "Link to collections and to the relevant assessment"],
+      "precedent": [{ "name": "Wirecutter (NYT)", "lesson": "Rigorous, transparent testing earned trust and dominant rankings for 'best X' searches." }],
+      "frameworks": ["f_eeat"], "kpis": ["k_org_rev", "k_top3"], "ice": [8, 7, 6]
+    },
+    {
+      "id": "s8", "pillar": "seo", "phase": "p2", "surface": "Website", "title": "'State of India's Spine' annual data report (digital PR)",
+      "summary": "Publish anonymised insights from assessments and Slouch Catcher, such as which cities slouch most, back age by profession, and pain by age group.",
+      "why": "Original data is the most reliable way to earn press links and brand mentions, which also feed AI models.",
+      "steps": ["Define the dataset and anonymisation with legal", "Pick 10 headline stats journalists will want", "Build an interactive report page with downloadable charts and embed codes", "Pitch to health, business and city media plus creators; repeat yearly"],
+      "precedent": [{ "name": "OkCupid OkTrends, Strava Year in Sport, Spotify Wrapped", "lesson": "First-party data stories earned extensive press coverage and links year after year." }],
+      "frameworks": ["f_dpr", "f_hhh"], "kpis": ["k_links", "k_ai_share"], "ice": [8, 6, 5]
+    },
+    {
+      "id": "s9", "pillar": "seo", "phase": "p1", "surface": "Website", "title": "Video SEO: embeds, transcripts and key moments",
+      "summary": "Put the right YouTube routine on every relevant article, with VideoObject schema, chapters and transcripts.",
+      "why": "Video results and Key Moments take up a lot of space on 'exercises for…' searches.",
+      "steps": ["Map the top 100 'exercise for X' searches to videos (existing or new)", "Add VideoObject with Clip markup and transcripts", "Add YouTube chapters that match article headings"],
+      "precedent": [{ "name": "Google Key Moments", "lesson": "Timestamped clips let Google deep-link into a video directly from results." }],
+      "frameworks": ["f_hhh"], "kpis": ["k_rich", "k_nb_clicks"], "ice": [7, 7, 6]
+    },
+
+    {
+      "id": "a1", "pillar": "aeo", "phase": "p0", "surface": "Website", "title": "Answer-first house style for /learn/",
+      "summary": "Every question heading gets a 40–60 word direct answer, followed by detail, a 'Key takeaways' box and a comparison table where useful.",
+      "why": "Snippets, People Also Ask boxes, voice assistants and AI answers all lift concise, well-structured answers.",
+      "steps": ["Write the style guide and article template", "Apply it to the 100 highest-impression articles first", "Track snippet and PAA wins in the Workbench"],
+      "precedent": [{ "name": "Featured snippet research (Ahrefs, Semrush)", "lesson": "Studies of snippet holders show short direct definitions, lists and tables directly under a matching heading win most often." }],
+      "frameworks": ["f_aeo"], "kpis": ["k_snippets", "k_ai_share"], "ice": [8, 8, 8]
+    },
+    {
+      "id": "a2", "pillar": "aeo", "phase": "p1", "surface": "Website", "title": "Complete structured-data layer",
+      "summary": "MedicalWebPage/Article with author and reviewedBy, FAQPage, Product, Review, Physician/MedicalBusiness, BreadcrumbList, VideoObject and Organization with sameAs.",
+      "why": "Google limited FAQ rich results to well-known, authoritative government and health sites in August 2023, so a health brand can still qualify where most competitors no longer do.",
+      "steps": ["Generate schema in the Astro layouts from existing frontmatter", "Validate in the Rich Results Test and fix GSC enhancement errors", "Connect physio reviewers as Person entities with credentials and sameAs links"],
+      "precedent": [{ "name": "Google's 2023 FAQ/HowTo change", "lesson": "FAQ rich results kept for authoritative health sites; HowTo rich results deprecated. Prioritise accordingly." }],
+      "frameworks": ["f_aeo", "f_eeat"], "kpis": ["k_rich", "k_snippets"], "ice": [8, 8, 7]
+    },
+    {
+      "id": "a3", "pillar": "aeo", "phase": "p1", "surface": "Website", "title": "People Also Ask mining → FAQ blocks per cluster",
+      "summary": "Collect real questions from PAA, Workbench keyword data, the WhatsApp community and support tickets, then answer them on the right pages.",
+      "why": "Real questions mirror how people phrase prompts to AI and voice assistants.",
+      "steps": ["Pull PAA questions for each cluster's head terms", "Add the 5–8 best questions to hubs and articles with FAQPage schema", "Repeat quarterly"],
+      "precedent": [{ "name": "AnswerThePublic-style research", "lesson": "Question-led content captures long-tail and conversational queries." }],
+      "frameworks": ["f_aeo"], "kpis": ["k_snippets"], "ice": [7, 8, 8]
+    },
+    {
+      "id": "a4", "pillar": "aeo", "phase": "p2", "surface": "Website + App", "title": "'Ask a physio' Q&A library (content loop)",
+      "summary": "Questions from the WhatsApp community, Instagram DMs and site search, answered by verified physios in the app and published as Q&A pages with QAPage schema.",
+      "why": "It turns everyday questions into indexable, expert-answered pages, and credits physios.",
+      "steps": ["Collect questions from the WhatsApp community, Instagram DMs and site search", "Route them to physios in the physio app as 'answer requests'", "Publish answers with the physio byline; notify the asker", "Each page links to the hub, assessment and products"],
+      "precedent": [{ "name": "Quora and Stack Overflow", "lesson": "User questions plus expert answers created a self-feeding SEO content loop." }],
+      "frameworks": ["f_loops", "f_eeat"], "kpis": ["k_nb_clicks", "k_bylines"], "ice": [8, 6, 5]
+    },
+    {
+      "id": "a5", "pillar": "aeo", "phase": "p1", "surface": "Website + App", "title": "Author and reviewer entity pages (E-E-A-T)",
+      "summary": "Every reviewer physio gets an entity page: registration, IAP membership, specialities, articles reviewed, and sameAs to LinkedIn and Google Business Profile.",
+      "why": "For health content, visible and verifiable expertise is a ranking and trust factor.",
+      "steps": ["Use verified data from the physio app", "Show 'Clinically reviewed by…' with a date on every article", "Build a medical review board page explaining the process"],
+      "precedent": [{ "name": "Healthline and Verywell Health", "lesson": "A 'medically reviewed by' model with named, credentialed experts and a published editorial policy is central to their trust." }],
+      "frameworks": ["f_eeat"], "kpis": ["k_bylines", "k_top3"], "ice": [9, 8, 7]
+    },
+
+    {
+      "id": "g1", "pillar": "geo", "phase": "p0", "surface": "Ops", "title": "AI visibility baseline across ChatGPT, Gemini, Perplexity and AI Overviews",
+      "summary": "Track about 100 buyer and help prompts ('best pillow for neck pain India', 'exercises for sciatica') and record who gets cited.",
+      "why": "You can't improve what you don't measure. The Workbench already tracks AI Overviews; extend it to the chat engines.",
+      "steps": ["Write a prompt set across the funnel and concerns, in English and Hinglish", "Run it monthly; record mentions, citations and sentiment against Frido, Tynor and Zanskar", "Add an 'AI answers' trend to the Workbench"],
+      "precedent": [{ "name": "Share-of-voice tracking", "lesson": "Brand tracking moved from search share of voice to AI answer share. Teams that baseline early can attribute later gains." }],
+      "frameworks": ["f_geo"], "kpis": ["k_ai_share"], "ice": [8, 8, 7]
+    },
+    {
+      "id": "g2", "pillar": "geo", "phase": "p1", "surface": "Website", "title": "Citation-ready pages: stats, quotes, sources",
+      "summary": "Add a physio quote, an Indian or clinical statistic and cited sources to every hub and top article.",
+      "why": "The GEO study found these three edits raised visibility in AI answers by up to about 40%.",
+      "steps": ["Build a library of quotable physio statements (collected via the app)", "Add an 'Evidence' section with links to studies and guidelines", "Use clear, extractable sentences with numbers"],
+      "precedent": [{ "name": "Aggarwal et al., GEO (2023)", "lesson": "Citations, quotations and statistics were the most effective edits for being surfaced by generative engines." }],
+      "frameworks": ["f_geo", "f_eeat"], "kpis": ["k_ai_share"], "ice": [8, 7, 7]
+    },
+    {
+      "id": "g3", "pillar": "geo", "phase": "p0", "surface": "Website", "title": "AI crawler policy, llms.txt and clean pages",
+      "summary": "Decide deliberately which AI crawlers to allow (GPTBot, OAI-SearchBot, PerplexityBot, Google-Extended, ClaudeBot), publish llms.txt, and keep content in server-rendered HTML.",
+      "why": "If AI engines can't fetch or parse the content, they can't cite it. Static Astro already helps.",
+      "steps": ["Set the robots.txt policy (recommended: allow search and answer bots)", "Publish /llms.txt listing hubs, assessments and the directory", "Make sure key facts aren't hidden behind client-side JavaScript"],
+      "precedent": [{ "name": "llms.txt proposal (Jeremy Howard, 2024)", "lesson": "A proposed standard summary file for language models. It's cheap to add, but adoption by AI engines is still unconfirmed." }],
+      "frameworks": ["f_geo"], "kpis": ["k_ai_share"], "ice": [6, 6, 9]
+    },
+    {
+      "id": "g4", "pillar": "geo", "phase": "p2", "surface": "Social", "title": "Earn presence where AI models learn: Reddit, Quora, YouTube, Wikipedia",
+      "summary": "Genuinely helpful physio answers on Reddit and Quora, YouTube transcripts, and reliable third-party mentions.",
+      "why": "AI answers lean heavily on community and video sources. Reddit signed data licensing deals with Google and OpenAI in 2024.",
+      "steps": ["Create verified physio accounts; follow each community's rules on disclosure", "Answer top recurring threads in r/IndianFitness, r/bangalore, r/india and condition subreddits", "Use YouTube descriptions and transcripts that state clear facts", "Get mentioned on credible third-party lists and media (see digital PR)"],
+      "precedent": [{ "name": "Reddit–Google and Reddit–OpenAI data deals (2024)", "lesson": "Community content is now a direct input to AI products and is surfaced heavily in Google." }],
+      "frameworks": ["f_geo", "f_community"], "kpis": ["k_ai_share", "k_links"], "ice": [8, 7, 5]
+    },
+    {
+      "id": "g5", "pillar": "geo", "phase": "p1", "surface": "Ops", "title": "Brand entity consolidation",
+      "summary": "Consistent Organization schema with sameAs, plus Wikidata, Crunchbase and LinkedIn entries and consistent descriptions everywhere.",
+      "why": "Search engines and AI models resolve brands as entities. Inconsistent data means fewer confident mentions.",
+      "steps": ["Write one canonical brand description", "Create or clean the Wikidata item and business listings", "Add Organization schema with sameAs to every profile"],
+      "precedent": [{ "name": "Knowledge Graph practice", "lesson": "Brands with clean entity data get knowledge panels and more accurate AI descriptions." }],
+      "frameworks": ["f_geo"], "kpis": ["k_ai_share"], "ice": [6, 6, 7]
+    },
+
+    {
+      "id": "so1", "pillar": "social", "phase": "p0", "surface": "Social", "title": "Content operating system (one long piece → many short pieces)",
+      "summary": "A weekly physio-led long video or podcast episode, cut into Reels and Shorts, carousels, LinkedIn posts, pins and WhatsApp tips, all on one calendar.",
+      "why": "Consistency beats virality. One production day can feed every platform for a week.",
+      "steps": ["Plan themes monthly by concern and season (monsoon knee pain, exam-season posture, Diwali travel)", "Film one session a week with 2–3 physios", "Use templates for captions, hooks and thumbnails", "Review saves and shares weekly, not likes"],
+      "precedent": [{ "name": "Gary Vaynerchuk's content model", "lesson": "One pillar piece repurposed into dozens of native micro pieces per week built a cross-platform media brand." }, { "name": "YouTube Hub, Hero, Help", "lesson": "A regular series plus evergreen help content plus a few big moments is Google's own playbook." }],
+      "frameworks": ["f_content_model", "f_hhh"], "kpis": ["k_social", "k_owned"], "ice": [9, 8, 6]
+    },
+    {
+      "id": "so2", "pillar": "social", "phase": "p1", "surface": "Social", "title": "Instagram: Reels series and physio Collab posts",
+      "summary": "Recurring series such as 'Slouch Patrol' (street posture checks), '30-second desk fixes', 'Myth or Physio?' and 'Parent care Sundays', posted as Collabs with physios.",
+      "why": "Instagram is the main discovery platform for India's 18–40 urban audience, and Collab posts reach both accounts' followers.",
+      "steps": ["4 Reels, 2 carousels and daily stories each week", "Every Reel ends with a save-worthy takeaway and a link to the assessment", "Collab every physio-featured post with that physio's account", "Use broadcast channels for loyal followers"],
+      "precedent": [{ "name": "Indian D2C brands (Mamaearth, boAt)", "lesson": "Creator-heavy Instagram strategies built mass awareness with little traditional media." }],
+      "frameworks": ["f_content_model"], "kpis": ["k_social"], "ice": [8, 7, 7]
+    },
+    {
+      "id": "so3", "pillar": "social", "phase": "p1", "surface": "Social", "title": "YouTube: condition routines (Help) plus Shorts",
+      "summary": "Long-form 'follow along' routines per condition and level, organised in playlists, with Shorts as trailers.",
+      "why": "YouTube is the second-largest search engine. Routines are evergreen and feed video SEO and AI citations.",
+      "steps": ["30 core routines (10 concerns × 3 levels) in the first quarter", "Shorts cut from every routine", "Chapters, transcripts, and links to the hub and assessment", "Community posts asking what to cover next"],
+      "precedent": [{ "name": "Bob & Brad", "lesson": "Two physical therapists built a channel with millions of subscribers on practical, friendly exercise videos." }],
+      "frameworks": ["f_hhh"], "kpis": ["k_social", "k_nb_clicks"], "ice": [9, 7, 5]
+    },
+    {
+      "id": "so4", "pillar": "social", "phase": "p1", "surface": "Social", "title": "LinkedIn: founder-led, physio community and corporate wellness",
+      "summary": "Founder posts on building Betterhood, physios sharing bylines and certificates, and HR-focused posts on workplace musculoskeletal health.",
+      "why": "LinkedIn reaches employers (corporate wellness) and physios (the app), and rewards personal voices over brand pages.",
+      "steps": ["The founder posts 2–3 times a week with real numbers and lessons", "One-tap byline and certificate sharing to LinkedIn from the physio app", "Monthly workplace ergonomics carousel and a downloadable HR guide"],
+      "precedent": [{ "name": "Founder-led brands (e.g. Zerodha's Nithin Kamath)", "lesson": "Candid founder voices on social built trust and reach that brand accounts rarely match." }],
+      "frameworks": ["f_community"], "kpis": ["k_social", "k_physio"], "ice": [7, 7, 7]
+    },
+    {
+      "id": "so5", "pillar": "social", "phase": "p0", "surface": "Social", "title": "WhatsApp Channel and Community",
+      "summary": "A public WhatsApp Channel for weekly posture tips and new routines, alongside the existing community for Q&A.",
+      "why": "India is WhatsApp's largest market, so it's the most-read owned channel you can build.",
+      "steps": ["Launch the Channel; promote it on every article, result page and package insert", "Post weekly: one tip, one routine, one question of the week", "Feed questions into the 'Ask a physio' library"],
+      "precedent": [{ "name": "WhatsApp in India", "lesson": "India is WhatsApp's largest market, with hundreds of millions of users, and brands use Channels for opt-in broadcast." }],
+      "frameworks": ["f_hooked", "f_loops"], "kpis": ["k_owned"], "ice": [7, 7, 8]
+    },
+    {
+      "id": "so6", "pillar": "social", "phase": "p1", "surface": "Social", "title": "Pinterest: desk setups, sleep posture and exercise pins",
+      "summary": "Visual guides (ideal desk height, pillow height by sleep position, 5-minute stretch cards) linking to articles and collections.",
+      "why": "People use Pinterest to plan and solve problems, and pins send traffic for years.",
+      "steps": ["Create 5 pin variants per hub", "Use rich pins from article metadata", "Make seasonal boards (WFH setup, travel, parents' care)"],
+      "precedent": [{ "name": "Pinterest as visual search", "lesson": "Pinterest positions itself as a visual discovery engine where users plan purchases; evergreen pins keep driving clicks." }],
+      "frameworks": ["f_content_model"], "kpis": ["k_social", "k_nb_clicks"], "ice": [6, 6, 7]
+    },
+    {
+      "id": "so7", "pillar": "social", "phase": "p1", "surface": "Social", "title": "Reddit and Quora: physio AMAs and helpful answers",
+      "summary": "Monthly AMAs with physios, plus a weekly answering rota on recurring questions. Never spam, always disclose.",
+      "why": "These answers rank in Google, feed AI models, and reach high-intent people.",
+      "steps": ["Pick 10 subreddits and 30 Quora topics", "Rotate physios for answers; link only when it adds value", "Host a monthly 'Ask a physio anything' AMA"],
+      "precedent": [{ "name": "Quora in India", "lesson": "India is one of Quora's largest audiences; expert answers keep ranking in search for years." }],
+      "frameworks": ["f_community", "f_geo"], "kpis": ["k_ai_share", "k_social"], "ice": [7, 6, 6]
+    },
+    {
+      "id": "so8", "pillar": "social", "phase": "p2", "surface": "Social", "title": "Creator and physio ambassador program",
+      "summary": "50 micro-creators (desk workers, runners, badminton players, parents' care) and 100 physio ambassadors with product seeding, affiliate codes and co-created content.",
+      "why": "Trusted voices convert better than brand posts, and physios add clinical credibility.",
+      "steps": ["Define tiers, briefs and disclosure rules", "Give ambassadors unique codes and landing pages; track via UTM", "Run quarterly co-creation sprints (a challenge, a series)"],
+      "precedent": [{ "name": "Gymshark", "lesson": "Early athlete and influencer ambassadors built a global brand mostly through social." }, { "name": "Mamaearth", "lesson": "Seeding products with thousands of micro-creators drove awareness in India." }],
+      "frameworks": ["f_community", "f_viral"], "kpis": ["k_social", "k_org_rev"], "ice": [8, 7, 5]
+    },
+    {
+      "id": "so9", "pillar": "social", "phase": "p2", "surface": "Social", "title": "Facebook groups and pages for caregivers (35+)",
+      "summary": "Content and community for adult children caring for parents: knee pain, balance, fall prevention and gifts.",
+      "why": "Facebook still reaches older Indian audiences and their families well.",
+      "steps": ["Repurpose 'Parent care Sundays' content", "Run a 'Healthy parents' group moderated by a physio", "Add festival gifting moments (Diwali, Parents' Day)"],
+      "precedent": [{ "name": "Community groups", "lesson": "Interest groups moderated by experts drive repeat engagement where feeds don't." }],
+      "frameworks": ["f_community"], "kpis": ["k_social"], "ice": [5, 6, 7]
+    },
+    {
+      "id": "so10", "pillar": "social", "phase": "p2", "surface": "Social", "title": "Video podcast on YouTube and Spotify",
+      "summary": "Revive the podcast as a video show: physios, athletes and desk workers on pain, recovery and longevity.",
+      "why": "Long-form builds deep trust, and each episode feeds a week of clips.",
+      "steps": ["Film every episode; publish on YouTube and Spotify", "Cut 6–10 clips per episode", "Publish a transcript page per episode on the site"],
+      "precedent": [{ "name": "Video-first podcasts", "lesson": "Shows that publish video on YouTube grow discovery much faster than audio-only." }],
+      "frameworks": ["f_content_model", "f_hhh"], "kpis": ["k_social"], "ice": [6, 6, 5]
+    },
+
+    {
+      "id": "w1", "pillar": "web", "phase": "p1", "surface": "Website", "title": "Shareable assessment and Slouch Catcher results",
+      "summary": "Results like 'Your back age is 38' or 'Your posture animal is a Flamingo', with beautiful share cards (OG images), WhatsApp and Instagram story sharing, and 'challenge a friend'.",
+      "why": "Results are personal and curious, so people share them, and every share brings new people to the assessment.",
+      "steps": ["Generate dynamic OG images per result", "One-tap share to WhatsApp and Instagram stories", "Use a challenge link that pre-fills 'X challenged you'", "Measure share rate and K-factor"],
+      "precedent": [{ "name": "16Personalities and BuzzFeed quizzes", "lesson": "Identity-style results spread through sharing at enormous scale." }, { "name": "Spotify Wrapped", "lesson": "Personal, beautifully designed share cards turn users into marketers." }],
+      "frameworks": ["f_viral", "f_loops"], "kpis": ["k_viral", "k_assess"], "ice": [9, 7, 6]
+    },
+    {
+      "id": "w2", "pillar": "web", "phase": "p1", "surface": "Website", "title": "Free tools that earn links",
+      "summary": "A pillow height finder, a desk and chair ergonomics checker, a 'back age' calculator, and a car seat setup guide.",
+      "why": "Useful tools rank, earn links and lead naturally to products.",
+      "steps": ["Build one tool a month; each with an article, schema and an embed code", "Pitch tools to WFH, HR and parenting bloggers", "Connect tool results to the right collection"],
+      "precedent": [{ "name": "HubSpot Website Grader and NerdWallet calculators", "lesson": "Free tools generated millions of uses, leads and backlinks for years." }],
+      "frameworks": ["f_loops", "f_dpr"], "kpis": ["k_links", "k_assess"], "ice": [8, 7, 6]
+    },
+    {
+      "id": "w3", "pillar": "web", "phase": "p2", "surface": "Website", "title": "betterYou corner accounts and re-assessment lifecycle",
+      "summary": "An optional sign-in (phone/WhatsApp) to save results across devices, track progress and get a re-assessment nudge after 4 weeks.",
+      "why": "Retention and return visits are the weakest part of a content funnel, and a progress loop fixes that.",
+      "steps": ["Phone or WhatsApp sign-in; migrate localStorage results", "Show a progress chart over re-assessments", "Send 4-week re-assessment nudges with WhatsApp consent"],
+      "precedent": [{ "name": "Fitness trackers and Strava", "lesson": "Seeing your own progress over time is a strong retention driver." }],
+      "frameworks": ["f_aarrr", "f_hooked"], "kpis": ["k_assess", "k_owned"], "ice": [8, 7, 5]
+    },
+    {
+      "id": "w4", "pillar": "web", "phase": "p0", "surface": "Website", "title": "Content-to-commerce bridges",
+      "summary": "A contextual 'physio-recommended kit' module on articles and results, matched by concern and use-case.",
+      "why": "Helpful content earns trust; a clear next step turns it into revenue without ads.",
+      "steps": ["Map concerns to collections and hero products", "Add the module after the 'how to relieve' section, not as a pop-up", "A/B test placement; track organic-attributed revenue"],
+      "precedent": [{ "name": "Glossier and Into The Gloss", "lesson": "An editorial community became the brand's launchpad and its most efficient acquisition channel." }],
+      "frameworks": ["f_aarrr"], "kpis": ["k_org_rev"], "ice": [8, 8, 7]
+    },
+    {
+      "id": "w5", "pillar": "web", "phase": "p1", "surface": "Website + App", "title": "Guided programs: the 14-day 'Back Reset' challenge",
+      "summary": "Free day-by-day routines delivered by WhatsApp or email, with a community thread and a completion certificate.",
+      "why": "Structured programs build habit, community and repeat touchpoints.",
+      "steps": ["Write 3 programs (back, neck, knee) with physios", "Deliver daily via WhatsApp templates", "Celebrate completion and offer a re-assessment"],
+      "precedent": [{ "name": "NHS Couch to 5K", "lesson": "A simple progressive program with daily structure got millions of beginners to finish." }],
+      "frameworks": ["f_hooked", "f_aarrr"], "kpis": ["k_owned", "k_assess"], "ice": [8, 7, 6]
+    },
+    {
+      "id": "w6", "pillar": "web", "phase": "p1", "surface": "Website", "title": "Reviews, UGC and physio-verified badges on products",
+      "summary": "Photo and video reviews, product Q&A answered by physios, and 'Recommended by N physios' on product pages.",
+      "why": "Social proof lifts conversion, and fresh UGC keeps product pages ranking.",
+      "steps": ["Post-purchase review requests by WhatsApp", "Route product Q&A to physios", "Show physio recommendations from the app"],
+      "precedent": [{ "name": "Amazon and Nykaa reviews", "lesson": "Review volume and photos are among the strongest conversion levers in Indian e-commerce." }],
+      "frameworks": ["f_community"], "kpis": ["k_org_rev"], "ice": [7, 8, 7]
+    },
+
+    {
+      "id": "ap1", "pillar": "app", "phase": "p1", "surface": "App", "title": "Physio profile share loop (QR, link, WhatsApp)",
+      "summary": "Every verified physio shares their Betterhood profile with patients via a clinic-desk QR, a WhatsApp link and a social card.",
+      "why": "Each share brings patients to betterhood.in, where they find articles, assessments and products. Distribution compounds with every physio.",
+      "steps": ["Polish the share kit already in the physio app", "Add a printable clinic poster and email signature", "Track visits per physio and show it to them ('34 patients viewed your profile')"],
+      "precedent": [{ "name": "Calendly", "lesson": "Every booking link a user sent exposed new people to the product, a classic viral loop." }],
+      "frameworks": ["f_loops", "f_viral"], "kpis": ["k_physio", "k_nb_clicks"], "ice": [9, 7, 7]
+    },
+    {
+      "id": "ap2", "pillar": "app", "phase": "p1", "surface": "Website + App", "title": "Byline loop: physios review articles and share them",
+      "summary": "Physios review articles in the app, get a 'Clinically reviewed by' byline and share it on LinkedIn and WhatsApp.",
+      "why": "It strengthens E-E-A-T, brings links and social reach, and gives physios a reason to come back.",
+      "steps": ["Match the top-200 articles to physio specialities", "One-tap 'share my byline' with a pre-made card", "Run a monthly leaderboard of reviewers"],
+      "precedent": [{ "name": "Healthline expert reviewers", "lesson": "A network of credentialed reviewers scaled trustworthy health content." }],
+      "frameworks": ["f_loops", "f_eeat"], "kpis": ["k_bylines", "k_links"], "ice": [9, 8, 7]
+    },
+    {
+      "id": "ap3", "pillar": "app", "phase": "p2", "surface": "App", "title": "PhysioEdge certification, CPD and shareable credentials",
+      "summary": "Make PhysioEdge the professional credential physios show off: digital certificates, LinkedIn 'Add to profile', and a badge on their Betterhood profile.",
+      "why": "Credentials people are proud of get shared, and every share recruits more physios.",
+      "steps": ["Issue verifiable digital certificates", "Add a one-click 'Add to LinkedIn' flow", "Show a 'PhysioEdge certified' filter in the directory"],
+      "precedent": [{ "name": "Coursera and HubSpot Academy certificates", "lesson": "Certificates shared on LinkedIn became a major acquisition channel." }],
+      "frameworks": ["f_viral", "f_community"], "kpis": ["k_physio"], "ice": [7, 6, 5]
+    },
+    {
+      "id": "ap4", "pillar": "app", "phase": "p3", "surface": "App", "title": "Consumer posture coach app",
+      "summary": "Daily 5-minute routines, posture reminders, Slouch Catcher camera mode, streaks, progress and an in-app shop.",
+      "why": "Daily habit is the strongest retention moat, and the app becomes the home for routines and re-purchase.",
+      "steps": ["Validate demand with the WhatsApp programs first (w5)", "MVP: routines, reminders, streaks, assessment sync", "Add camera posture checks"],
+      "precedent": [{ "name": "Duolingo", "lesson": "Streaks and small daily goals are central to Duolingo's retention, as the company has discussed publicly." }],
+      "frameworks": ["f_hooked", "f_aarrr"], "kpis": ["k_owned"], "ice": [8, 5, 3]
+    },
+    {
+      "id": "ap5", "pillar": "app", "phase": "p3", "surface": "Website + App", "title": "'Posture Wrapped': an annual personal recap",
+      "summary": "A year-end shareable recap: routines done, back age change, posture animal evolution and city rank.",
+      "why": "Annual personal moments create a burst of organic sharing and press.",
+      "steps": ["Design for Instagram stories", "Launch with the 'State of India's Spine' report", "Add physio and city leaderboards"],
+      "precedent": [{ "name": "Spotify Wrapped", "lesson": "An annual personal recap became a global social moment that users eagerly share." }],
+      "frameworks": ["f_viral", "f_dpr", "f_hhh"], "kpis": ["k_viral", "k_links"], "ice": [7, 6, 5]
+    },
+    {
+      "id": "ap6", "pillar": "app", "phase": "p2", "surface": "App", "title": "Refer-a-patient and refer-a-physio incentives",
+      "summary": "A double-sided reward: physios earn credits and patients get a discount when patients buy through a physio's link; physios inviting physios unlock perks.",
+      "why": "Clear incentives turn goodwill into consistent referrals.",
+      "steps": ["Attribute physio links to shop orders", "Credits redeemable for products or PhysioEdge", "A physio-invites-physio flow with verification"],
+      "precedent": [{ "name": "Dropbox referral program", "lesson": "Double-sided storage rewards famously drove a large share of Dropbox's early signups." }],
+      "frameworks": ["f_viral", "f_loops"], "kpis": ["k_physio", "k_org_rev"], "ice": [8, 6, 5]
+    },
+
+    {
+      "id": "o1", "pillar": "ops", "phase": "p0", "surface": "Ops", "title": "North Star and AARRR growth dashboard",
+      "summary": "One dashboard joining GSC, site tracker, shop, social and app data around 'weekly people helped'.",
+      "why": "The team needs one shared definition of progress, beyond traffic.",
+      "steps": ["Agree on the North Star and 4 input metrics", "Join data sources (the Workbench, tracker, Shopify, social)", "Hold a weekly review with owners per input"],
+      "precedent": [{ "name": "Amplitude North Star Playbook", "lesson": "Product teams align around one value metric with a few levers they own." }],
+      "frameworks": ["f_nsm", "f_aarrr"], "kpis": ["k_org_rev"], "ice": [8, 8, 7]
+    },
+    {
+      "id": "o2", "pillar": "ops", "phase": "p0", "surface": "Ops", "title": "Weekly ICE growth meeting and experiment log",
+      "summary": "A 45-minute weekly ritual: review metrics, re-score ideas, commit to 2–3 experiments, and log what was learned. This dashboard is the backlog.",
+      "why": "A steady cadence of small experiments compounds faster than big launches.",
+      "steps": ["Score new ideas with ICE in this dashboard", "Log each experiment's hypothesis, metric, result and decision", "Keep a monthly learning review"],
+      "precedent": [{ "name": "Sean Ellis and the GrowthHackers process", "lesson": "High-tempo testing with ICE prioritisation was central to early growth teams (Dropbox, LogMeIn)." }],
+      "frameworks": ["f_ice"], "kpis": [], "ice": [7, 8, 9]
+    },
+    {
+      "id": "o3", "pillar": "ops", "phase": "p3", "surface": "Website + App", "title": "Corporate wellness as B2B2C distribution",
+      "summary": "Posture workshops for companies, where employees take assessments, join WhatsApp programs and get team offers.",
+      "why": "One HR deal reaches hundreds of desk workers, the core audience.",
+      "steps": ["Package a workshop, assessment drive and team dashboard", "Turn case studies into LinkedIn content", "Offer a company leaderboard in Posture Wrapped"],
+      "precedent": [{ "name": "B2B2C health programs", "lesson": "Employer-sponsored wellness (e.g. Headspace for Work) became a major acquisition channel for consumer health brands." }],
+      "frameworks": ["f_loops"], "kpis": ["k_assess", "k_owned"], "ice": [7, 6, 5]
+    }
+  ],
+
+  "channels": [
+    { "id": "instagram", "name": "Instagram", "priority": "Core", "role": "Main discovery and brand love for 18–40 urban India.", "audience": "Desk workers, gym-goers, young parents", "formats": ["Reels series", "Carousels", "Collab posts with physios", "Stories with polls", "Broadcast channel"], "cadence": "4 Reels, 2 carousels and daily stories each week", "kpis": "Saves, shares, follows, profile link clicks", "precedent": "Indian D2C brands like Mamaearth and boAt built scale on creator-led Instagram.", "ideas": ["Slouch Patrol street posture checks", "30-second desk fixes", "Myth or Physio?", "Posture animal reveals from Slouch Catcher"] },
+    { "id": "youtube", "name": "YouTube (long-form + Shorts)", "priority": "Core", "role": "Evergreen help routines, search discovery and AI citations.", "audience": "People actively looking for relief and exercises", "formats": ["Follow-along routines", "Shorts", "Video podcast", "Community posts"], "cadence": "2 long videos and 5 Shorts a week", "kpis": "Watch time, subscribers, clicks to site", "precedent": "Bob & Brad (physical therapists) grew to millions of subscribers with practical routines.", "ideas": ["10 concerns × 3 levels routine library", "'Fix your setup' series", "Physio reacts to viral fitness advice"] },
+    { "id": "whatsapp", "name": "WhatsApp (Channel, Community, Business)", "priority": "Core", "role": "Owned audience, programs, re-engagement and support.", "audience": "Everyone in India, especially 30+", "formats": ["Channel broadcasts", "14-day programs", "Community Q&A", "Order and review flows"], "cadence": "Weekly broadcast; daily during programs", "kpis": "Followers, read rate, program completion", "precedent": "India is WhatsApp's largest market; brands use Channels and Business messaging for opt-in reach.", "ideas": ["Question of the week", "Back Reset challenge", "4-week re-assessment nudge"] },
+    { "id": "linkedin", "name": "LinkedIn", "priority": "Grow", "role": "Founder voice, physio network and corporate wellness.", "audience": "Founders, HR leaders, physios, desk workers", "formats": ["Founder posts", "Byline and certificate shares", "HR carousels", "Newsletter"], "cadence": "Founder 2–3× a week; brand page 2× a week", "kpis": "Followers, inbound wellness leads, physio signups", "precedent": "Founder-led brands such as Zerodha built trust through candid founder posts.", "ideas": ["Building Betterhood in public", "Desk health at work monthly", "Physio of the month"] },
+    { "id": "gbp", "name": "Google Business Profile and Maps", "priority": "Grow", "role": "Local discovery for the brand and its physios.", "audience": "People searching 'physio near me'", "formats": ["Posts", "Q&A", "Photos", "Reviews"], "cadence": "Weekly posts; review requests always on", "kpis": "Map views, calls, direction requests", "precedent": "The local pack appears above organic results for local intent searches.", "ideas": ["Physio GBP claim guide in the app", "Review request link on each profile"] },
+    { "id": "pinterest", "name": "Pinterest", "priority": "Grow", "role": "Evergreen visual search traffic to guides and products.", "audience": "Planners: WFH setups, home and parents' care", "formats": ["Infographic pins", "Idea pins", "Rich pins"], "cadence": "15–20 pins a week (repurposed)", "kpis": "Outbound clicks, saves", "precedent": "Pinterest is used as a visual discovery engine where users plan purchases.", "ideas": ["Ideal desk height chart", "Pillow by sleep position", "5-minute stretch cards"] },
+    { "id": "reddit", "name": "Reddit", "priority": "Grow", "role": "Credibility, AI citations and high-intent answers.", "audience": "Researchers and sceptics", "formats": ["Physio AMAs", "Helpful answers", "Data posts from the spine report"], "cadence": "Weekly answers; monthly AMA", "kpis": "Upvotes, referral visits, AI citation share", "precedent": "Reddit content is licensed to Google and OpenAI (2024) and heavily surfaced in search.", "ideas": ["r/IndianFitness physio AMA", "r/bangalore desk-pain thread"] },
+    { "id": "quora", "name": "Quora", "priority": "Grow", "role": "Long-lived answers that rank in search, in India especially.", "audience": "Indian question askers", "formats": ["Physio answers", "Spaces"], "cadence": "10 answers a week", "kpis": "Views, upvotes, referral visits", "precedent": "India is one of Quora's largest audiences.", "ideas": ["Betterhood Physio Answers Space"] },
+    { "id": "facebook", "name": "Facebook", "priority": "Maintain", "role": "Caregiver and 35+ audience; groups.", "audience": "Adult children of ageing parents, older adults", "formats": ["Group", "Repurposed video", "Events"], "cadence": "3× a week (repurposed)", "kpis": "Group engagement, shares", "precedent": "Expert-moderated groups sustain engagement with older audiences.", "ideas": ["Healthy Parents group", "Diwali gifting guides"] },
+    { "id": "podcast", "name": "Spotify and podcasts", "priority": "Test", "role": "Deep trust and a source of clips.", "audience": "Commuters, health enthusiasts", "formats": ["Video podcast"], "cadence": "Every two weeks", "kpis": "Listens, completion, clips made", "precedent": "Video-first podcasts grow discovery faster than audio-only.", "ideas": ["Pain-free at 50", "Athlete recovery stories"] },
+    { "id": "regional", "name": "Regional short video (ShareChat, Moj, Josh)", "priority": "Test", "role": "Hindi and regional reach beyond English Instagram.", "audience": "Tier 2–3 cities, regional-language users", "formats": ["Dubbed Reels", "Regional creators"], "cadence": "Test 8 weeks", "kpis": "Views, followers, site visits", "precedent": "Indian-language users are the majority of India's internet.", "ideas": ["Hindi desk fixes", "Knee care for parents in regional languages"] },
+    { "id": "x", "name": "X (Twitter) and Threads", "priority": "Later", "role": "Founder commentary and news jacking only.", "audience": "Tech and startup audience", "formats": ["Founder threads"], "cadence": "Opportunistic", "kpis": "Mentions", "precedent": "Low fit for consumer health in India; use mainly for founder voice.", "ideas": [] }
+  ]
+}
